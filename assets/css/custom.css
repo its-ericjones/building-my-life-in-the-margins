@@ -81,12 +81,6 @@ nav a.active {
   box-shadow: inset 0 0 0 2px #333;
 }
 
-/* Main content block */
-main article {
-  max-width: 650px;
-  margin: 0 auto;
-}
-
 /* Typography & blocks */
 a {
   color: #4c7c5b;
