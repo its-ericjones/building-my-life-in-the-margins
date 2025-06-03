@@ -1,0 +1,60 @@
+/* Base colors */
+.site-wrapper {
+  max-width: 650px;
+  margin: 0 auto;
+  /* padding: 3rem 1.5rem; */
+}
+
+
+body {
+  background-color: #fcf8f3; /* soft ivory */
+  color: #2c2c2c;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.7;
+  padding: 2rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #3a3a3a;
+}
+
+/* Links */
+a {
+  color: #5a7d5a;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation */
+nav {
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+/* Article layout */
+main article {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+/* Lists */
+ul {
+  padding-left: 1.2rem;
+}
+
+/* Blockquotes */
+blockquote {
+  background-color: #f0eee8;
+  border-left: 4px solid #9ab88f;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+}
