@@ -6,26 +6,26 @@ theme = "hugo-bearblog"
 [menu]
 
 [[menu.main]]
-  name = "Seedlings"
+  name = "🌱 Seedlings"
   url = "/seedlings/"
   weight = 1
 
 [[menu.main]]
-  name = "In Bloom"
+  name = "🌿 In Bloom"
   url = "/in-bloom/"
   weight = 2
 
 [[menu.main]]
-  name = "Harvest"
+  name = "🌾 Harvest"
   url = "/harvest/"
   weight = 3
 
 [[menu.main]]
-  name = "Compost"
+  name = "🪱 Compost"
   url = "/compost/"
   weight = 4
 
 [[menu.main]]
-  name = "Lab Log"
+  name = "🧪 Lab Log"
   url = "/lab-log/"
   weight = 5
