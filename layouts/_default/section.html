@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<main>
+  <article>
+    {{ .Content }}  <!-- Renders the _index.md content -->
+
+    {{ if .Pages }}
+      <ul>
+        {{ range .Pages.ByDate.Reverse }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a><br/>
+            <small>{{ .Date.Format "Jan 2, 2006" }}</small>
+          </li>
+        {{ end }}
+      </ul>
+    {{ else }}
+      <p>No posts yet</p>
+    {{ end }}
+  </article>
+</main>
+
+{{ end }}
