@@ -104,6 +104,7 @@ blockquote {
 }
 
 .section-description {
+  text-align: left;
   margin-bottom: 2rem;
 }
 
@@ -120,4 +121,27 @@ blockquote {
 
 .post-list li {
   margin-bottom: 1.25rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #888;
+  font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+  .site-wrapper {
+    padding: 2rem 1rem;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+    padding: 0.35rem 0.75rem;
+  }
 }
