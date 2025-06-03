@@ -1,11 +1,14 @@
 {{ define "main" }}
-
 <main>
   <article>
-    {{ .Content }}  <!-- Renders the _index.md content -->
+    <div class="section-description">
+      {{ .Content }}
+    </div>
 
     {{ if .Pages }}
-      <ul>
+      <hr class="section-divider" />
+
+      <ul class="post-list">
         {{ range .Pages.ByDate.Reverse }}
           <li>
             <a href="{{ .RelPermalink }}">{{ .Title }}</a><br/>
@@ -18,5 +21,4 @@
     {{ end }}
   </article>
 </main>
-
 {{ end }}
