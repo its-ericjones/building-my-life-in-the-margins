@@ -2,3 +2,30 @@ baseURL = 'https://eric-jones/'
 languageCode = 'en-us'
 title = 'Building My Life in the Margins'
 theme = "hugo-bearblog"
+
+[menu]
+
+[[menu.main]]
+  name = "Seedlings"
+  url = "/seedlings/"
+  weight = 1
+
+[[menu.main]]
+  name = "In Bloom"
+  url = "/in-bloom/"
+  weight = 2
+
+[[menu.main]]
+  name = "Harvest"
+  url = "/harvest/"
+  weight = 3
+
+[[menu.main]]
+  name = "Compost"
+  url = "/compost/"
+  weight = 4
+
+[[menu.main]]
+  name = "Lab Log"
+  url = "/lab-log/"
+  weight = 5
