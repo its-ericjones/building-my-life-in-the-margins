@@ -1,0 +1,4 @@
+baseURL = 'https://eric-jones/'
+languageCode = 'en-us'
+title = 'Building My Life in the Margins'
+theme = "hugo-bearblog"
