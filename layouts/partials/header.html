@@ -1,0 +1,12 @@
+<a href="{{ "" | relURL }}" class="title">
+  <h2>{{ .Site.Title }}</h2>
+</a>
+{{ if not .IsHome }}
+  {{ if .Site.Menus.main }}
+    <nav>
+      {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  {{ end }}
+{{ end }}
