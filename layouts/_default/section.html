@@ -5,9 +5,9 @@
       {{ .Content }}
     </div>
 
-    {{ if .Pages }}
-      <hr class="section-divider" />
+    <hr class="section-divider" />
 
+    {{ if .Pages }}
       <ul class="post-list">
         {{ range .Pages.ByDate.Reverse }}
           <li>
