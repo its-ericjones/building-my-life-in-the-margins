@@ -1,44 +1,40 @@
-/* Base colors */
+/* Global layout wrapper */
 .site-wrapper {
   max-width: 650px;
   margin: 0 auto;
-  /* padding: 3rem 1.5rem; */
+  padding: 3rem 1.5rem;
 }
 
-
+/* Body styling */
 body {
-  background-color: #fcf8f3; /* soft ivory */
+  background-color: #fcf8f3;
   color: #2c2c2c;
   font-family: 'Inter', sans-serif;
   line-height: 1.7;
-  padding: 2rem;
 }
 
 /* Headings */
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
   font-weight: 600;
+  color: #3a3a3a;
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
-  color: #3a3a3a;
 }
 
-/* Links */
-a {
-  color: #5a7d5a;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+header h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 /* Navigation */
 nav {
-  margin-bottom: 1rem;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 nav a {
@@ -51,14 +47,10 @@ nav a {
   transition: background-color 0.2s ease;
 }
 
-/* Section-specific colors */
+/* Section-specific nav colors */
 nav a[href*="/seedlings"] {
   background-color: #e6f2e6;
   color: #2e5c2e;
-}
-
-nav a.active {
-  box-shadow: inset 0 0 0 2px #333;
 }
 
 nav a[href*="/in-bloom"] {
@@ -85,24 +77,30 @@ nav a:hover {
   opacity: 0.85;
 }
 
-
-nav a:hover {
-  background-color: #d2dccb;
+nav a.active {
+  box-shadow: inset 0 0 0 2px #333;
 }
 
-
-/* Article layout */
+/* Main content block */
 main article {
   max-width: 650px;
   margin: 0 auto;
 }
 
-/* Lists */
+/* Typography & blocks */
+a {
+  color: #4c7c5b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 ul {
   padding-left: 1.2rem;
 }
 
-/* Blockquotes */
 blockquote {
   background-color: #f0eee8;
   border-left: 4px solid #9ab88f;
