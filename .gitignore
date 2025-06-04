@@ -5,6 +5,9 @@ resources/
 # Build lock
 .hugo_build.lock
 
+# git modules
+.gitmodules
+
 # OS files
 .DS_Store
 Thumbs.db
