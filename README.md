@@ -12,9 +12,11 @@ According to Maggie:
 
 ## 🌱 Why I’m Doing This
 
-I’ve been venturing into the [IndieWeb](https://indieweb.org/) movement — the quiet belief that having a small, personal site still matters. Especially in an internet full of algorithmic sludge and AI-generated content.
+I’ve been venturing into the [IndieWeb](https://indieweb.org/) movement — the quiet belief that having a small, personal site still matters. Especially in an internet full of algorithmic noise and AI-generated content.
 
-I don’t want to wait around for platforms to decide what I can or can’t share. And I don’t want to build a site that’s bloated with trackers or scripts.. I want something:
+I don’t want to wait around for platforms to decide what I can or can’t share. And I don’t want to build a site that’s bloated with trackers or scripts.
+
+ I want something:
 
 - Fast
 - Lightweight
@@ -23,8 +25,8 @@ I don’t want to wait around for platforms to decide what I can or can’t shar
 
 ## 🏗️ What I'm Currently Building
 - [x] Design
-- [] Copying content over from previous blogging platform [Pika](https://pika.page)
-- [] Provision Virtual Private Server for hosting 
+- [ ] Copying content over from previous blogging platform [Pika](https://pika.page)
+- [ ] Provision Virtual Private Server for hosting 
 
 ---
 
