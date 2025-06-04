@@ -10,6 +10,10 @@ According to Maggie:
 
 "It harkens back to the early days of the web when people had fewer notions of how websites “should be.” It’s an ethos that is both classically old and newly imagined."
 
+[Joel Hooks](https://joelhooks.com/digital-garden/) has the comforting definition of:
+
+"The phrase "digital garden" is a metaphor for thinking about writing and creating that focuses less on the resulting "showpiece" and more on the process, care, and craft it takes to get there."
+
 ## 🌱 Why I’m Doing This
 
 I’ve been venturing into the [IndieWeb](https://indieweb.org/) movement — the quiet belief that having a small, personal site still matters. Especially in an internet full of algorithmic noise and AI-generated content.
