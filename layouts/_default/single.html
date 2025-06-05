@@ -1,6 +1,10 @@
 {{ define "main" }}
 <main>
   <article>
+    <div class="post-utility-links">
+      <a href="{{ .Section | relURL }}">← Back to {{ .Section | title }}</a>
+    </div>
+
     <h1>{{ .Title }}</h1>
 
     {{ with .Date }}
