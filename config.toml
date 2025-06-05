@@ -29,3 +29,5 @@ theme = "hugo-bearblog"
   name = "🧪 Lab Log"
   url = "/lab-log/"
   weight = 5
+
+summaryLength = 40
