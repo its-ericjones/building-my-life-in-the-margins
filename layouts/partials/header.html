@@ -4,10 +4,16 @@
   </h1>
 
   {{ if not .IsHome }}
+    <nav class="nav-home" style="text-align: center; margin-bottom: 0.5rem;">
+      <a href="/" class="{{ if eq .RelPermalink "/" }}active{{ end }}">🏡 Home</a>
+    </nav>
+
     {{ if .Site.Menus.main }}
-      <nav style="justify-content: center;">
+      <nav class="site-nav" style="justify-content: center;">
         {{ range .Site.Menus.main }}
-          <a href="{{ .URL }}" class="{{ if eq $.RelPermalink .URL }}active{{ end }}">{{ .Name }}</a>
+          {{ if ne .URL "/" }}
+            <a href="{{ .URL }}" class="{{ if eq $.RelPermalink .URL }}active{{ end }}">{{ .Name }}</a>
+          {{ end }}
         {{ end }}
       </nav>
     {{ end }}
