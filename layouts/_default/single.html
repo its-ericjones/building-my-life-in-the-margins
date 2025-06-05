@@ -1,0 +1,29 @@
+{{ define "main" }}
+<main>
+  <article>
+    <h1>{{ .Title }}</h1>
+
+    {{ with .Date }}
+    <p>
+      <i>
+        <time datetime='{{ .Format "2006-01-02" }}'>
+          {{ .Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+        </time>
+      </i>
+    </p>
+    {{ end }}
+
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+
+    {{ with .Params.tags }}
+    <p class="post-tags">
+      {{ range . }}
+        <span class="tag">{{ . }}</span>
+      {{ end }}
+    </p>
+    {{ end }}
+  </article>
+</main>
+{{ end }}
