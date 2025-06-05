@@ -4,10 +4,6 @@
   </h1>
 
   {{ if not .IsHome }}
-    <nav class="nav-home" style="text-align: center; margin-bottom: 0.5rem;">
-      <a href="/" class="{{ if eq .RelPermalink "/" }}active{{ end }}">🏡 Home</a>
-    </nav>
-
     {{ if .Site.Menus.main }}
       <nav class="site-nav" style="justify-content: center;">
         {{ range .Site.Menus.main }}
