@@ -12,7 +12,15 @@
         {{ range .Pages.ByDate.Reverse }}
           <li>
             <a href="{{ .RelPermalink }}">{{ .Title }}</a><br/>
-            <small>{{ .Date.Format "Jan 2, 2006" }}</small>
+            <small>{{ .Date.Format "Jan 2, 2006" }}</small><br/>
+
+            {{ with .Params.description }}
+              <p>{{ . }}</p>
+            {{ else }}
+              <p>{{ .Summary | plainify }}</p>
+            {{ end }}
+
+            <a href="{{ .RelPermalink }}">Read more →</a>
           </li>
         {{ end }}
       </ul>
