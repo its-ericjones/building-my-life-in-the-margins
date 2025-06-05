@@ -31,3 +31,6 @@ theme = "hugo-bearblog"
   weight = 5
 
 summaryLength = 40
+
+[taxonomies]
+  tag = "tags"
