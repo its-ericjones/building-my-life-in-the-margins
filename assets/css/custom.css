@@ -166,3 +166,28 @@ footer {
   border-radius: 999px;
   margin-right: 0.5rem;
 }
+
+.post-utility-links {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 1rem;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.post-utility-links a {
+  color: #666;
+  text-decoration: none;
+  margin: 0 0.4rem;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.post-utility-links a:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.dot-divider {
+  color: #aaa;
+  padding: 0 0.3rem;
+}
