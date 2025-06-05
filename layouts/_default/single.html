@@ -19,11 +19,11 @@
     </div>
 
     {{ with .Params.tags }}
-    <p class="post-tags">
-      {{ range . }}
-        <span class="tag">{{ . }}</span>
-      {{ end }}
-    </p>
+      <p class="post-tags">
+        {{ range . }}
+          <a class="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+        {{ end }}
+      </p>
     {{ end }}
   </article>
 </main>
