@@ -7,8 +7,9 @@
     <p>
       <i>
         <time datetime='{{ .Format "2006-01-02" }}'>
-          {{ .Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+          {{ .Format "02 Jan, 2006" }}
         </time>
+
       </i>
     </p>
     {{ end }}
