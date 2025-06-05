@@ -8,14 +8,12 @@
     <h1>{{ .Title }}</h1>
 
     {{ with .Date }}
-    <p>
-      <i>
-        <time datetime='{{ .Format "2006-01-02" }}'>
-          {{ .Format "02 Jan, 2006" }}
-        </time>
+    <div class="post-date">
+      <time datetime='{{ .Format "2006-01-02" }}'>
+        {{ .Format "02 Jan, 2006" }}
+      </time>
+    </div>
 
-      </i>
-    </p>
     {{ end }}
 
     <div class="post-content">
